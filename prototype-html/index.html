@@ -1,11 +1,227 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Darius | League of Legends</title>
-  <meta name="description" content="Darius biopage" />
-  <meta name="author" content="Abigail Thompson" />
-
-</head>
+    <head>
+        <meta charset="utf-8">
+        <!-- Character set defines the valid range of character values and their meanings -->
+        <title>Darius | League of Legends</title>
+        <!-- Title is the actual title of the page that appears in the tab and the top of the browser -->
+        <meta name="description" content="About Darius Page" />
+        <!-- Description is a short, keyword rich description of the page -->
+        <meta name="author" content="Abigail Thompson" />
+        <!-- Author is no longer necessary but is the name or group of the person responsible for creating the page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Viewport controls the initial scale of the elements on the page but it's probably better to use CSS for this -->
+    </head>
+    <body>
+        <main>
+            <header class="header title">
+                <h1>Darius, the hand of Noxus</h1>
+            </header>
+            <section id="container">
+                <section id="content">
+                    <nav class="table-of-contents">
+                        <ul>
+                            <li>
+                                <a href="#biography">Biography</a>
+                            </li>
+                            <li>
+                                <a href="#role">Role</a>
+                            </li>
+                            <li>
+                                <a href="#abilities">Abilities</a>
+                            </li>
+                            <li>
+                                <a href="#scaling">Scaling</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/e/eb/Darius_OriginalCentered.jpg"
+                        alt="The character Darius from League of Legends looking angry in a battle pose" />
+                    <!-- Would want this as a background img over a noxian flag color background - externally linking to as opposed to actually copying and serving up an img, to do so myself would just require replacing src with the path of the img in question-->
+                    <strong>&copy; Riot Games</strong>
+                    <section id="biography">
+                        <h2 id="biography-header">
+                            A general biography
+                        </h2>
+                        <blockquote>“History only remembers the victors. Stand with Noxus, and be remembered forever.”<br>
+                            <cite>-Darius</cite>
+                        </blockquote>
+                        <p>Darius' began life as an orphan in the harsh and impoverished city of Basilich with his brother, Draven,
+                            something that would come to shape him for the rest of his life.
+                            He was a born fighter and struggled to provide for himself and his brother.
+                            When he became a teenager, Basilich was siezed by Cyrus, who commanded a Warhost for the Noxian empire - and
+                            he was taken in by Cyrus, who took a liking to him.
+                            From his teens to his adulthood, he fought alongside Cyrus with his brother Draven, and the trio would go on
+                            to conquer a path from one end of the continent to the other, proving the pair as a mighty duo, and
+                            elevating them within Noxian society.
+                            You see, within Noxus, any person can rise to status and power, even command their own warband, irregardless
+                            of who they were or where they were from - no titles were inherited, no land was bought, or sold, the mighty
+                            took the place at the helm on their own.
+                            Darius took this ideology and fervently worked to grow from a soldier in Cyrus' warband to commanding
+                            officer and eventually to general, which he earned through taking the head of a Noxian general who had
+                            ordered a retreat - and reforming broken lines to win the battle of Dalamor.
+                        </p>
+                        <p>
+                            When it was heard that the mighty Darius has gotten his own command, he attracted recruits from far and wide
+                            - and many, he turned away, only accepting the most disciplined, iron willed, and strongest of them all.
+                            He - and his warband - quickly gained notoriety, and it became common for many cities to surrender at the
+                            first site of his banners, even in lands far beyond Noxus.
+                            After a hard fought victory against the mountain fortresses of Varju, ending in a year the resistance of a
+                            people who had for decades resisted Noxian aggression - Darius was named the Hand of Noxus by the Emperor
+                            himself.
+                            All that knew him, and of him, knew that he did not want power or adulation - just for Noxian victory over
+                            all, and to help the oppressed rise against their weak oppressors.
+                            When taking a city ruled by a petty king who was well known to rule by bloodshed, he said: <q>Kings demand
+                            you kneel before their heirlooms and unearned titles. Noxus wants you to stand, so that you can stand in
+                            the glory shared by all.</q>
+                        </p>
+                    </section> <!-- Close biography -->
+                    <section id="role">
+                        <h2 id="role-header">
+                            His role in the game
+                        </h2>
+                        <dl>
+                            <dt>Role</dt>
+                            <dd>Juggernaut</dd>
+                            <dd>As a <em>Juggernaut</em> champion, Darius is a close range brawler and is best suited to ambush or direct
+                                melee engagements where he can take advantage of his passive bleed-on-hit and his abilities.
+                            </dd>
+                            <dt>Preferred Lane</dt>
+                            <dd>Top</dd>
+                            <dd>As a close range fighter that is also tanky, Darius needs a solo lane to be able to easily farm enough
+                                gold to snowball him into either a tank role or a damage role late game.
+                            </dd>
+                        </dl>
+                        <p>In general, Darius tends to scale very well, whether he's built to take punishment or dish it out, and brings
+                            the pain with his bleed passive.
+                        </p>
+                        <h3 id="abilities">Abilities</h3>
+                        <ol id="abilities-list">
+                            <li>
+                                <em>Passive: Hemorrhage</em>
+                                <p id="passive-description" class="ability-description"><i>Darius' attacks and damaging abilities cause
+                                    enemies to bleed for physical damage over 5 seconds, stacking up to 5 times. Darius enrages and gains
+                                    massive Attack Damage when his target reaches max stacks.</i>
+                                </p>
+                                <aside id="passive-aside" class="strategy-asides">This is what makes him truly unique - all of his abilities
+                                    cause a lasting impact in terms of damage and bleed can and will kill your opponents for you.
+                                </aside>
+                            </li>
+                            <li>
+                                <em>Q: Decimate</em>
+                                <p id="q-description" class="ability-description"><i>Darius winds up and swings his axe in a wide circle.
+                                    Enemies struck by the blade take more damage than those struck by the handle. Darius heals based on enemy
+                                    champions and large monsters hit by the blade.</i>
+                                </p>
+                                <aside id="q-aside" class="strategy-asides">Darius' Q is an amazing poke, a great follow up to his E as
+                                    enemies are trying to flee, and has a healing element that gives him a bit of sustain.
+                                </aside>
+                            </li>
+                            <li>
+                                <em>W: Crippling Strike</em>
+                                <p id="w-description" class="ability-description"><i>Darius's next attack strikes an enemy's crucial artery.
+                                    As they bleed out, their Move Speed is slowed.</i>
+                                </p>
+                                <aside id="w-aside" class="strategy-asides">This is a great forced engagement tool - you hook an enemy, then
+                                    stop the coward from fleeing you as you unleash your full might on them.
+                                </aside>
+                            </li>
+                            <li>
+                                <em>E: Apprehend</em>
+                                <p id="e-description" class="ability-description"><i>Darius hones his axe, passively causing his physical
+                                    damage to ignore a percentage of his target's Armor. When activated, Darius sweeps up his enemies with his
+                                    axe's hook and pulls them to him.</i>
+                                </p>
+                                <aside id="e-aside" class="strategy-asides">This is Darius' engagement method, and is a two-fer - his passive
+                                    causes him to ignore a large percentage of his opponents armor so that none may hide from him, and his E
+                                    drags a ranged opponent or a fleeing opponent to him.
+                                </aside>
+                            </li>
+                            <li>
+                                <em>R: Noxian Guillotine</em>
+                                <p id="r-description" class="ability-description"><i>Darius' attacks and damaging abilities cause
+                                    enemies to bleed for physical damage over 5 seconds, stacking up to 5 times. Darius enrages and gains
+                                    massive Attack Damage when his target reaches max stacks.</i>
+                                </p>
+                                <aside id="r-aside" class="strategy-asides">Darius' axe spares no one, and if you kill someone with the
+                                    true damage of this ability, you can kill someone else.
+                                </aside>
+                            </li>
+                        </ol>
+                        <h3> Scaling </h3>
+                        <table id="scaling" border="1">
+                            <tr>
+                                <th scope="col">Level</th>
+                                <th scope="col">HP</th>
+                                <th scope="col">Mana</th>
+                                <th scope="col">Attack</th>
+                                <th scope="col">Armor</th>
+                                <th scope="col">Magic resistance</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>582</td>
+                                <td>263</td>
+                                <td>64</td>
+                                <td>39</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>729.5</td>
+                                <td>347.81</td>
+                                <td>71.38</td>
+                                <td>44.9</td>
+                                <td>33.84</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>977</td>
+                                <td>490.13</td>
+                                <td>83.75</td>
+                                <td>54.8</td>
+                                <td>36.94</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>1256</td>
+                                <td>650.55</td>
+                                <td>97.7</td>
+                                <td>65.96</td>
+                                <td>40.42</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>1566.5</td>
+                                <td>829.09</td>
+                                <td>113.23</td>
+                                <td>78.38</td>
+                                <td>44.31</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>1908.5</td>
+                                <td>1025.74</td>
+                                <td>130.32</td>
+                                <td>92.06</td>
+                                <td>48.58</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>2282</td>
+                                <td>1240.5</td>
+                                <td>149</td>
+                                <td>107</td>
+                                <td>53.25</td>
+                            </tr>
+                        </table>
+                    </section> <!-- Close role-->
+                </section> <!-- Close content -->
+                <footer class="footer" id="bottom-footer">
+                    <h6 id="ref-footer">&copy; 2022 | Abigail Thompson | <a href="mailto:someemail@scrapernoscraping.com">Contact</a> 
+                      | <a href="#top">Back to top</a>
+                    </h6>
+                </footer>
+            </section> <!-- Close container --> 
+        </main>
+    </body>
