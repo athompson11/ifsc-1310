@@ -1,5 +1,65 @@
-/* CSS Demo */
+/* ---------------Box Sizing----------------- */
 
-body {
-    background-color: blueviolet;
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* ---------------Global Styles----------------- */
+body{
+    font-family: 'Comic Neue', cursive;
+    margin: 0px;
+    text-shadow: 1px 1px;
+}
+
+/*
+#662C8F
+#DBA549
+#A65ADB
+#44DB84
+#338F5A
+*/
+header.primary {
+    background-color: #662C8F;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 40px 40px 40px 40px;
+}
+
+header.primary h1{
+    font-size: 3.6rem;
+    margin: 30px 30px;
+}
+
+header.primary h1 a{
+    color:#A65ADB;
+    text-decoration: none;
+}
+
+header.primary h2{
+    font-size: 1.7rem;
+    margin: 20px auto 10px;
+}
+
+header.primary nav {
+
+}
+
+header.primary nav ul{
+    background-color: #3c5392;
+    padding: 0px;
+    /*Get rid of bullet point space*/
+}
+
+header.primary nav ul li{
+    list-style-type: none;
+}
+
+header.primary nav ul li a {
+    text-decoration: none;
+    color:#A65ADB;
 }
