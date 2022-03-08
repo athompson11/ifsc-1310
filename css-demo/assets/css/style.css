@@ -88,6 +88,7 @@ header.primary nav ul li a:active {
   width: 125%;
   height: 125%;
   transition: 5s;
+  /* This doesn't work :( */
 }
 
 #content {

@@ -1,0 +1,40 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+body h1{
+    
+    text-align: center;
+}
+/* 
+Assignment List Class
+Type: ul
+ */
+#content{
+  display: flex;
+  justify-content: center;
+}
+#content nav{
+  display: flex;
+}
+.assignment-list{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.assignment-list li{
+    list-style-type: none;
+    align-content: center;
+    padding: 2.1vh;
+}
+
+.assignment-list li a{
+  text-decoration: none;
+  color: black;
+  background-color: rgb(127,180,255,0.5);
+  padding: 6px 6px;
+  border-radius: 20px;
+}
