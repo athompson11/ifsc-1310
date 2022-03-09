@@ -180,3 +180,69 @@ aside div.container article.widget footer{
     font-size:.5rem;
     text-transform:uppercase;
 }
+
+#additional-elements {
+    border-top: 1px black;
+    padding-top: 5vh;
+}
+
+#additional-elements h2{
+    font-size: 1.7rem;
+    margin: 20px auto 10px;
+}
+
+#additional-elements h3{
+    border-left: 40px solid blue;
+    padding-left: 7px;
+}
+
+#additional-elements a{
+    color: #338F5A;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+#additional-elements a:hover{
+    color: black;
+    text-decoration-thickness: 1px;
+    transition: 5s;
+}
+
+#additional-elements img{
+    float: right;
+    margin-left: 2vw;
+}
+
+table{
+    width:100%;
+    border:1px solid #c0c0c0;
+    border-collapse:collapse;
+  }
+  
+  tr:nth-child(even){
+      background-color: #3a1852;
+  }
+
+
+  th{
+    background:#662C8F;
+    color:black;
+    width:33%;
+    padding: 0.2rem;
+  }
+  td{
+    border:1px solid #c0c0c0;
+  }
+
+dt{
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+dd + dd{
+    margin-top: 0.8rem;
+}
+
+dd + dt{
+    margin-top: 1.5rem;
+}
