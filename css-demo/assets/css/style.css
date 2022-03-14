@@ -40,6 +40,7 @@ header.primary {
     text-align: center;
     color: #FFFFFF;
     padding: 40px 40px 40px 40px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%239C92AC' fill-opacity='0.5'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
 header.primary h1{
@@ -174,10 +175,10 @@ aside div.container article.widget footer{
 
 #colophon h6{
     padding:10px;
-    margin:0;
+    margin:2px;
     text-align:center;
     color: black;
-    font-size:.5rem;
+    font-size:1rem;
     text-transform:uppercase;
 }
 
@@ -245,4 +246,55 @@ dd + dd{
 
 dd + dt{
     margin-top: 1.5rem;
+}
+
+blockquote {
+    margin: 5rem;
+    background-color: #643586;
+    border: 10px outset black;
+    box-shadow: 0 5px 10px black;
+}
+
+blockquote p:before {
+content: open-quote;
+font-size: 2em;
+}
+
+blockquote p {
+display: inline;
+text-align: justify;
+padding: 2rem;
+}
+
+blockquote cite{
+    display:block;
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+blockquote p:after{
+    content: close-quote;
+    font-size: 2em;
+}
+
+div {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.widget{
+    width:45%;
+    
+    margin: 2vw;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.4);
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-size:1rem;
 }
