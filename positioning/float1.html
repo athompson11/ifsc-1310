@@ -29,35 +29,43 @@ body {
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 10px;
 }
 #red {
 	background-color: #900;
-	width:380px;
+	width:370px;
 	height:180px;
 	float: left;
 }
 #green {
 	background-color: #090;
-	width:380px;
+	width:370px;
 	height:180px;
 	float: right;
 }
 #blue {
 	background-color: #00F;
-	width:380px;
+	width:370px;
 	height:180px;
 	float: left;
 }
 #purple {
 	background-color: #63C;
-	width:380px;
+	width:370px;
 	height:180px;
 	float: right;
 }
 
-#blue, #red, #green, #purple {
-	margin: 10px;
+#green, #purple{
+	margin: 20px 20px 0px 5px;
+}
+
+#red, #blue{
+	margin: 20px 5px 0px 20px;
+}
+
+#blue, #purple{
+	/* Why won't this respect margin top? */
+	margin-bottom: 20px;
 }
 
 #footer {
