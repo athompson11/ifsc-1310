@@ -38,6 +38,9 @@ header.primary {
     overflow: hidden;
     display: block;
     position: relative;
+    background: url("../img/header-background.webp") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
 }
 
 header.primary h1{
