@@ -1,0 +1,43 @@
+#content-header img{
+    height: 5vh;
+    min-width: 200px;
+    min-height: 350px;
+    float: right;
+    margin-left: 2vw;
+}
+
+#action-shot{
+    height: 5vh;
+    min-width: 125px;
+    min-height: 350px;
+    float: left;
+    margin-right: 2vw;
+}
+
+#intro p{
+    text-align: center;
+}
+ 
+h3{
+    text-align: center;
+}
+
+#content {
+    padding: 0;
+}
+
+dt{
+    font-weight: bolder;;
+}
+
+dd + dd{
+    margin-top: 0.8rem;
+}
+
+dd + dt{
+    margin-top: 1.5rem;
+}
+
+dt + dd{
+    margin-top: 0.8rem;;
+}

@@ -1,0 +1,33 @@
+.faq-container{
+    padding-top: 5vh;
+    padding-left: 10vw;
+}
+
+details {
+    padding: .5em;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    width: 15vw;
+    min-width: 125px;
+}
+
+details + details{
+    margin-top: 5vh;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    width: 100%;
+    text-align: center;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
