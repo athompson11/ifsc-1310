@@ -1,0 +1,84 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* ---------------Utility Classes----------------- */
+  .container {
+    width: 70vw;
+  }
+  img{
+      max-width: 100%;
+  }
+  
+  /* ---------------Global Styles----------------- */
+  
+  /* Color Scheme
+
+  */
+/* ---------------Global Styles----------------- */
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+}
+
+header.primary {
+    background-color: lightgray;
+    padding: 40px 40px 40px 40px;
+}
+
+header.primary h1{
+    font-size: 3.6rem;
+    margin: 30px 30px;
+}
+
+header.primary h1 a{
+    text-decoration: none;
+    background-image: url("../img/segway_color_logo.gif");
+    display: block;
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 200px;
+    text-indent: 100%;
+    white-space: nowrap;
+    }
+
+header.primary h2{
+
+}
+
+header.primary nav {
+    width: auto;
+}
+
+header.primary nav ul{
+    /*removes extra space for list item attachments*/
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+header.primary nav ul li a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.intro
+
+    /*
+header.primary nav ul li a:hover,
+header.primary nav ul li a:active {
+}
+*/
