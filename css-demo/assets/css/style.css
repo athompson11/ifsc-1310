@@ -18,19 +18,26 @@ html {
       max-width: 100%;
   }
   
-/* ---------------Global Styles----------------- */
+  /* ---------------Global Styles----------------- */
   
-
+  /* Color Scheme
+    #662C8F
+    #DBA549
+    #A65ADB
+    #44DB84
+    #338F5A
+  */
 /* ---------------Global Styles----------------- */
-
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Comic Neue', cursive;
     margin: 0px;
     text-shadow: 1px 1px;
+    background-color: #A65ADB;
 }
 
 header.primary {
-    text-align: left;
+    background-color: #662C8F;
+    text-align: center;
     color: #FFFFFF;
     padding: 40px 40px 40px 40px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%239C92AC' fill-opacity='0.5'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
@@ -40,7 +47,7 @@ header.primary h1{
     font-size: 3.6rem;
     margin: 30px 30px;
 }
-/*
+
 header.primary h1 a{
     color:#A65ADB;
     text-decoration: none;
@@ -56,7 +63,7 @@ header.primary nav {
 }
 
 header.primary nav ul{
-    /*removes extra space for list item attachments
+    /*removes extra space for list item attachments*/
     padding: 0;
     display: flex;
     flex-direction: row-reverse;
@@ -82,6 +89,7 @@ header.primary nav ul li a:active {
   width: 125%;
   height: 125%;
   transition: 5s;
+  /* This doesn't work :( */
 }
 
 #content {
@@ -290,4 +298,3 @@ div {
 
     font-size:1rem;
 }
-*/
