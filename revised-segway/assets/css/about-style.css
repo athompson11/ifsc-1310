@@ -1,0 +1,15 @@
+html{
+    background: url("../img/about-us-background.webp") !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+    background-color: #778899e0;
+    /* Why isn't this filling the whole screen automatically????*/
+}
+
+#colophon{
+    background-color: #778899a1;
+}
